@@ -1,0 +1,17 @@
+SistemKelas/
+     SistemKelasApp.swift
+     ContentView.swift
+     RoleSelectionView.swift
+     DashboardView.swift
+import SwiftUI
+@main
+Struct SistemKelasApp: App{
+    var body: some Scene {
+        WindowGroup{
+            ContentView()
+        }
+    }
+}
+import SwiftUI
+Struct ContentView: View {
+   @State private var email = ''
